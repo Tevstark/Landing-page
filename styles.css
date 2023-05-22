@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+span {
+    color: #3882F6;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -20,6 +24,11 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+a:hover {
+    font-size: 20px;
+    color: #3882F6;
 }
 
 p {
@@ -104,10 +113,14 @@ button {
 }
 
 .images img {
-    max-width: 21rem;
+    width: 21rem;
     border-radius: 1rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     border: 1px solid rgb(97, 96, 96);
+}
+
+.images img:hover {
+    width: 23rem;
 }
 
 .images p {
