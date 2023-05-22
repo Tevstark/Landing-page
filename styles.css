@@ -100,6 +100,7 @@ button {
     gap: 2rem;
     height: 60vh;
     justify-content: center;
+    flex: 1;
 }
 
 .images img {
@@ -148,4 +149,42 @@ button {
 .quote-author {
     margin-left: 14rem;
     font-weight: 900;
+}
+
+.sign-up-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex: 1; 
+}
+
+.call-to-action-section {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 0.6rem;
+    color: #f9faf8;
+}
+
+.sign-up-button button {
+    border: #e5e7eb solid 0.2rem;
+}
+
+.footer-section {
+    background-color: #1F2937;
+    height: 20vh;
+    color: #E5E7EB;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
