@@ -98,7 +98,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    height: 70vh;
+    height: 60vh;
     justify-content: center;
 }
 
@@ -146,6 +146,6 @@ button {
 }
 
 .quote-author {
-    margin-left: 9rem;
+    margin-left: 14rem;
     font-weight: 900;
 }
