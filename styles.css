@@ -67,11 +67,12 @@ button {
     color: #E5E7EB;
     font-size: 18px;
     padding-left: 30vh;
-    padding-right: 30vh;
+    padding-right: 20vh;
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .header {
@@ -89,6 +90,8 @@ button {
 
 .hero-content img {
     border-radius: 1rem;
+    max-width: 25em;
+    box-shadow: rgb(24, 24, 24) 0px 20px 30px -10px;
 }
 
 .hero-text {
