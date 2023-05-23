@@ -114,18 +114,21 @@ button {
     gap: 2rem;
     height: 60vh;
     justify-content: center;
-    flex: 1;
+    /* flex: 1 0 60vh; */
 }
 
 .images img {
-    width: 21rem;
+    max-width: 21rem;
     border-radius: 1rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     border: 1px solid rgb(97, 96, 96);
 }
 
-.images img:hover {
-    width: 23rem;
+.images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .images p {
@@ -133,6 +136,8 @@ button {
     font-weight: 600;
     display: flex;
     justify-content: center;
+    /* max-width: 15rem; */
+    overflow-wrap: break-word;
 }
 
 .information-header {
