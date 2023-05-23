@@ -14,6 +14,7 @@ span {
 
 body{
     font-family: 'Roboto', sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; */
 }
 
 img {
@@ -86,6 +87,10 @@ button {
     padding-bottom: 15vh;
 }
 
+.hero-content img {
+    border-radius: 1rem;
+}
+
 .hero-text {
     max-width: 500px;
     
@@ -124,7 +129,8 @@ button {
 }
 
 .images p {
-    font-weight: 520;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
     display: flex;
     justify-content: center;
 }
