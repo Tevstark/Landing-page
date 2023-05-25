@@ -14,6 +14,7 @@ span {
 
 body{
     font-family: 'Roboto', sans-serif;
+    scrollbar-base-color: red;
     /* font-family: 'Courier New', Courier, monospace; */
 }
 
@@ -214,4 +215,27 @@ button {
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+@media screen and (max-width: 420px){
+    body{
+        padding: 0;
+    }
+    .hero {
+        display: block;
+        padding: 0;
+        flex: 1 1 200px;
+        width: 100%;
+    }
+
+    .information {
+        display: block;
+        flex: 1 0 20vh;
+        width: 100%;
+    }
+
+    .hero-content img{
+        width: 20px;
+        height: 20px;
+    }
 }
