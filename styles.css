@@ -118,7 +118,7 @@ button {
     gap: 2rem;
     height: 70vh;
     justify-content: center;
-    /* flex: 1 0 60vh; */
+    flex: 1 0 auto;
 }
 
 .images img {
@@ -129,7 +129,6 @@ button {
 }
 
 .images {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
